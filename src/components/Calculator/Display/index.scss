@@ -1,0 +1,22 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 25px;
+  padding-top: 20px;
+  div {
+    display: flex;
+    justify-content: flex-end;
+    width: 290px;
+    white-space: nowrap;
+    text-align: right;
+    overflow: hidden;
+  }
+  &__buffer {
+    min-height: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  &__result {
+    font-size: 50px;
+  }
+}

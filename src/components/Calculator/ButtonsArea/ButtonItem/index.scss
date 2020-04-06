@@ -1,0 +1,24 @@
+.buttonItem {
+  background-color: #D8D8D8;
+  color: #6C686E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  &:nth-last-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-bottom-right-radius: 5px;
+  }
+  &_operation {
+    background-color: #A66260;
+    color: #fff;
+  }
+  &_disabled {
+    user-select: none;
+  }
+}

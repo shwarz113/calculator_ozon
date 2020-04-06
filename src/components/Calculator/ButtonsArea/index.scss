@@ -1,0 +1,11 @@
+.buttonsArea {
+  width: calc(100% - 6px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2px;
+  margin: 5px auto;
+  background-color: #979797;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
